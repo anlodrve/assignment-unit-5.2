@@ -1,16 +1,28 @@
-header{
+.header{
    background-color: #C3740C;
-   color: #FEBAC7;
-   text-align: center;
+}
+.pagetitle{
+    color: #FEBAC7;
+}
+.subheading{
+    color: rgb(253, 177, 56)
+}
+.title{
+    text-align: center;
 }
 
-main{
+.textbox{
     background-color: lightgray;
     padding: 1em; 
 }
-body{
-    background-image: url(record.png);
-    background-repeat: repeat; 
-    margin: 0;
 
+.background{
+    background-image: url(record.png);
+    background-repeat: repeat, repeat;
+    background-size: 300px;
+    background-color: white;
+}
+
+body{
+    margin: 0;
 }
